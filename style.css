@@ -48,21 +48,21 @@ h2 {
 
 /* CAMPOS */
 
-section > div {
+section>div {
     margin-bottom: 18px;
 }
 
-section > div:last-child {
+section>div:last-child {
     margin-bottom: 0;
 }
 
-section > div > div {
+section>div>div {
     flex: 1;
 }
 
 /* LINHAS COM DOIS CAMPOS */
 
-section > div:has(> div) {
+section>div:has(> div) {
     display: flex;
     gap: 20px;
 }
@@ -126,25 +126,94 @@ button {
 
 /* ADICIONAR RESPONSÁVEL */
 
-button:first-child {
+.btn-add-resp {
     background-color: #e3edf6;
     color: #164d7a;
 }
 
-button:first-child:hover {
+.btn-add-resp:hover {
     background-color: #d3e3f0;
 }
 
 /* CADASTRAR */
 
-button:last-child {
+.btn-cadastrar {
     background-color: #164d7a;
     color: #ffffff;
 }
 
-button:last-child:hover {
+.btn-cadastrar:hover {
     background-color: #123b63;
 }
+
+/*LISTA RESPONSÁVEIS*/
+.lista-responsaveis {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card-responsavel {
+    border: 1px solid #dbe4ec;
+    border-radius: 8px;
+    background-color: #f8fafc;
+    padding: 18px 20px;
+}
+
+.card-responsavel-topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.card-responsavel-titulo {
+    color: #164d7a;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/* BOTÃO REMOVER */
+.btn-remover {
+    border: none;
+    background-color: transparent;
+    color: #b91c1c;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.btn-remover:hover {
+    color: #7f1d1d;
+}
+
+/* CONTEÚDO */
+.card-responsavel-conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 14px 24px;
+}
+
+/* DADOS */
+.dado-responsavel {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.dado-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #64748b;
+}
+
+.dado-valor {
+    font-size: 14px;
+    color: #1f2937;
+}
+
 
 /* RESPONSIVIDADE */
 
@@ -162,7 +231,7 @@ button:last-child:hover {
         font-size: 26px;
     }
 
-    section > div:has(> div) {
+    section>div:has(> div) {
         flex-direction: column;
         gap: 18px;
     }
@@ -190,7 +259,7 @@ button:last-child:hover {
     gap: 25px;
 }
 
-.possui-responsavel > span {
+.possui-responsavel>span {
     margin: 0;
     color: #164d7a;
     font-size: 15px;
