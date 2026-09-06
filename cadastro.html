@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lira Grupo | Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Cadastro de Aluno</h1>
+
+        <section>
+            <h2>Dados do aluno</h2>
+
+            <div>
+                <span>Nome completo</span>
+                <input type="text" id="input_nome">
+            </div>
+
+            <div>
+                <div>
+                    <span>Data de nascimento</span>
+                    <input type="date" id="input_dt_nascimento">
+                </div>
+
+                <div>
+                    <span>E-mail</span>
+                    <input type="text" id="input_email">
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <span>Senha</span>
+                    <input type="password" maxlength="8" id="input_senha">
+                </div>
+
+                <div>
+                    <span>Confirmar senha</span>
+                    <input type="password" maxlength="8" id="input_confirmacao_senha">
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Endereço</h2>
+
+            <div>
+                <div>
+                    <span>CEP</span>
+                    <input type="text" id="input_cep">
+                </div>
+
+                <div>
+                    <span>Número</span>
+                    <input type="text" id="input_numero">
+                </div>
+            </div>
+
+            <div>
+                <span>Logradouro</span>
+                <input type="text" id="input_logradouro">
+            </div>
+        </section>
+
+        <div class="possui-responsavel">
+            <span>O aluno possui responsável?</span>
+
+            <label>
+                <input type="radio" name="possui_responsavel" value="sim" required>
+                Sim
+            </label>
+
+            <label>
+                <input type="radio" name="possui_responsavel" value="nao">
+                Não
+            </label>
+        </div>
+
+        <section id="secao-responsavel">
+            <h2>Responsável</h2>
+
+            <div>
+                <span>Nome</span>
+                <input type="text" id="input_nome_responsavel">
+            </div>
+
+            <div>
+                <span>Telefone</span>
+                <input type="tel" id="input_telefone" />
+            </div>
+        </section>
+
+        <section  id="secao-endereco-responsavel">
+            <h2>Endereço do responsável</h2>
+
+            <div>
+                <div>
+                    <span>CEP</span>
+                    <input type="text" id="input_cep_responsavel">
+                </div>
+
+                <div>
+                    <span>Número</span>
+                    <input type="text" id="input_numero_responsavel">
+                </div>
+            </div>
+
+            <div>
+                <span>Logradouro</span>
+                <input type="text" id="input_logradouro_responsavel">
+            </div>
+        </section>
+
+        <section>
+            <button>Adicionar outro responsável</button>
+            <button>Cadastrar</button>
+        </section>
+    </main>
+</body>
+
+</html>
+
+<script>
+    const radioSim = document.querySelector(
+        'input[name="possui_responsavel"][value="sim"]'
+    );
+
+    const radioNao = document.querySelector(
+        'input[name="possui_responsavel"][value="nao"]'
+    );
+
+    const secaoResponsavel = document.getElementById("secao-responsavel");
+    const secaoEnderecoResponsavel = document.getElementById(
+        "secao-endereco-responsavel"
+    );
+
+
+    // Esconde as seções de responsável
+    function esconderResponsavel() {
+        secaoResponsavel.style.display = "none";
+        secaoEnderecoResponsavel.style.display = "none";
+    }
+
+
+    // Mostra as seções de responsável
+    function mostrarResponsavel() {
+        secaoResponsavel.style.display = "block";
+        secaoEnderecoResponsavel.style.display = "block";
+    }
+
+
+    // Quando selecionar "Sim"
+    radioSim.addEventListener("change", function () {
+        mostrarResponsavel();
+    });
+
+
+    // Quando selecionar "Não"
+    radioNao.addEventListener("change", function () {
+        esconderResponsavel();
+    });
+
+
+    // Começa com as seções escondidas
+    esconderResponsavel();
+</script>
