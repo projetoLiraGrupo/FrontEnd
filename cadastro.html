@@ -51,7 +51,7 @@
             <div>
                 <div>
                     <span>CEP</span>
-                    <input type="text" id="input_cep">
+                    <input type="text" id="input_cep" maxlength="9">
                 </div>
 
                 <div>
@@ -90,7 +90,7 @@
 
             <div>
                 <span>Telefone</span>
-                <input type="tel" id="input_telefone" />
+                <input type="tel"  id="input_telefone" maxlength="15" />
             </div>
         </section>
 
@@ -100,7 +100,7 @@
             <div>
                 <div>
                     <span>CEP</span>
-                    <input type="text" id="input_cep_responsavel">
+                    <input type="text" id="input_cep_responsavel" maxlength="9">
                 </div>
 
                 <div>
@@ -124,164 +124,11 @@
 
         <section>
             <button class="btn-add-resp" onclick="adicionarOutroResponsavel()">Adicionar outro responsável</button>
-            <button class="btn-cadastrar">Cadastrar</button>
+            <button class="btn-cadastrar" onclick="cadastrar()">Cadastrar</button>
         </section>
     </main>
 </body>
 
 </html>
 
-<script>
-    const radioSim = document.querySelector(
-        'input[name="possui_responsavel"][value="sim"]'
-    );
-
-    const radioNao = document.querySelector(
-        'input[name="possui_responsavel"][value="nao"]'
-    );
-
-    const secaoResponsavel = document.getElementById("secao-responsavel");
-    const secaoEnderecoResponsavel = document.getElementById(
-        "secao-endereco-responsavel"
-    );
-
-    // Lista de json para realizar o fetch
-    let listaResponsaveis = []
-
-    // Esconde as seções de responsável
-    function esconderResponsavel() {
-        secaoResponsavel.style.display = "none";
-        secaoEnderecoResponsavel.style.display = "none";
-        secaoResponsavaisCadastrados.style.display = "none";
-    }
-
-
-    // Mostra as seções de responsável
-    function mostrarResponsavel() {
-        secaoResponsavel.style.display = "block";
-        secaoEnderecoResponsavel.style.display = "block";
-        secaoResponsavaisCadastrados.style.display = "block";
-    }
-
-
-    // Quando selecionar "Sim"
-    radioSim.addEventListener("change", function () {
-        mostrarResponsavel();
-    });
-
-
-    // Quando selecionar "Não"
-    radioNao.addEventListener("change", function () {
-        esconderResponsavel();
-    });
-
-
-    // Começa com as seções escondidas
-    esconderResponsavel();
-
-    // Adiciona outro responsavel a lista
-    function adicionarOutroResponsavel() {
-        nome_responsavel = input_nome_responsavel.value.trim()
-        telefone_responsavel = input_telefone.value.trim()
-        cep_responsavel = input_cep_responsavel.value.trim()
-        numero_responsavel = input_numero_responsavel.value.trim()
-        logradouro_responsavel = input_logradouro_responsavel.value.trim()
-        if (
-            nome_responsavel == null || nome_responsavel == "" ||
-            telefone_responsavel == null || telefone_responsavel == "" ||
-            cep_responsavel == null || cep_responsavel == "" ||
-            numero_responsavel == null || numero_responsavel == "" ||
-            logradouro_responsavel == null || logradouro_responsavel == ""
-        ) {
-            alert("Preencha todos os campos")
-            return
-        }
-        listaResponsaveis.push(
-            {
-                "Responsavel": {
-                    "nomeResp": nome_responsavel,
-                    "telefoneResp": telefone_responsavel
-                },
-                "EnderecoResponsavel": {
-                    "cepResp": cep_responsavel,
-                    "numeroResp": numero_responsavel,
-                    "logradouroResp": logradouro_responsavel
-                }
-            }
-        )
-        atualizarListaResponsaveis()
-        limparFormularioResponsavel()
-    }
-
-    // Atualiza o html de lista de responsavel
-    function atualizarListaResponsaveis() {
-        var cards = ""
-        for (var i = 0; i < listaResponsaveis.length; i++) {
-            var responsavel = listaResponsaveis[i].Responsavel
-            var endereco = listaResponsaveis[i].EnderecoResponsavel
-            cards += `<div class="card-responsavel">
-                        <div class="card-responsavel-topo">
-                            <span class="card-responsavel-titulo"> Responsável ${i + 1} </span>
-                            <button type="button" class="btn-remover" onclick="removerResponsavelPorIndice(${i})"> Remover </button>
-                        </div>
-                        <div class="card-responsavel-conteudo">
-                            <div class="dado-responsavel">
-                                <span class="dado-label">Nome</span>
-                                <span class="dado-valor">${responsavel.nomeResp}</span>
-                            </div>
-                            <div class="dado-responsavel"> 
-                                <span class="dado-label">Telefone</span> 
-                                <span class="dado-valor">${responsavel.telefoneResp}</span>
-                            </div>
-                            <div class="dado-responsavel">
-                                <span class="dado-label">CEP</span>
-                                <span class="dado-valor">${endereco.cepResp}</span>
-                            </div>
-                            <div class="dado-responsavel">
-                                <span class="dado-label">Número</span>
-                                <span class="dado-valor">${endereco.numeroResp}</span>
-                            </div>
-                            <div class="dado-responsavel logradouro">
-                                <span class="dado-label">Logradouro</span>
-                                <span class="dado-valor">${endereco.logradouroResp}</span>
-                            </div>
-                        </div>
-                    </div>`
-        }
-        containerListaResponsaveis.innerHTML = cards
-    }
-
-    // remove um responsavel da lista
-    function removerResponsavelPorIndice(indice) {
-        console.log(indice)
-        let listaTemporaria = []
-        for (var i = 0; i < listaResponsaveis.length; i++) {
-            if (i != indice) {
-                listaTemporaria.push(
-                    {
-                        "Responsavel": {
-                            "nomeResp": listaResponsaveis[i].Responsavel.nomeResp,
-                            "telefoneResp": listaResponsaveis[i].Responsavel.telefoneResp
-                        },
-                        "EnderecoResponsavel": {
-                            "cepResp": listaResponsaveis[i].EnderecoResponsavel.cepResp,
-                            "numeroResp": listaResponsaveis[i].EnderecoResponsavel.numeroResp,
-                            "logradouroResp": listaResponsaveis[i].EnderecoResponsavel.logradouroResp
-                        }
-                    }
-                )
-            }
-        }
-        listaResponsaveis = listaTemporaria
-        atualizarListaResponsaveis()
-    }
-
-    // limpa formulario
-    function limparFormularioResponsavel() {
-        input_nome_responsavel.value = ""
-        input_telefone.value = ""
-        input_cep_responsavel.value = ""
-        input_numero_responsavel.value = ""
-        input_logradouro_responsavel.value = ""
-    }
-</script>
+<script src="./script.js"></script>
