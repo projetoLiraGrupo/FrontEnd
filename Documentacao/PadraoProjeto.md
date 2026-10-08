@@ -10,4 +10,4 @@ commit: prefixo + ação realizada no commit
 Nome de Classes e Funções: UpperCamelCase
 Nome de Variavel: lowerCamelCase
 
-Utilização de pt-br sempre qe possivel
+Utilização de pt-br sempre que possivel
