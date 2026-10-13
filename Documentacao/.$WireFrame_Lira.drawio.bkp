@@ -358,7 +358,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lira-04" name="04 · Painel de gestão">
-    <mxGraphModel dx="2009" dy="1084" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1440" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="2235" dy="1336" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1440" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -871,7 +871,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lira-06" name="06 · Agendar aula">
-    <mxGraphModel dx="2009" dy="1084" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1440" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1440" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -963,7 +963,7 @@
           </mxCell>
         </object>
         <mxCell id="p6-23" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=17;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;" value="" vertex="1">
-          <mxGeometry height="640" width="682" x="284" y="295" as="geometry" />
+          <mxGeometry height="697" width="682" x="284" y="295" as="geometry" />
         </mxCell>
         <mxCell id="p6-24" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=17;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#F2F2F2;strokeColor=#BBBBBB;" value="" vertex="1">
           <mxGeometry height="410" width="356" x="990" y="295" as="geometry" />
@@ -975,52 +975,52 @@
           <mxGeometry height="22" width="634" x="308" y="372" as="geometry" />
         </mxCell>
         <mxCell id="p6-27" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=16;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;" value="Selecione um aluno ou turma  ▾" vertex="1">
-          <mxGeometry height="44" width="634" x="308" y="402" as="geometry" />
+          <mxGeometry height="44" width="634" x="302" y="402" as="geometry" />
         </mxCell>
         <mxCell id="p6-28" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#252525;fontStyle=1;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;text;fillColor=none;strokeColor=none;spacing=0;" value="Instrumento *" vertex="1">
-          <mxGeometry height="22" width="300" x="308" y="477" as="geometry" />
+          <mxGeometry height="22" width="300" x="308" y="469" as="geometry" />
         </mxCell>
         <mxCell id="p6-29" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=16;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;" value="Piano  ▾" vertex="1">
-          <mxGeometry height="44" width="300" x="308" y="507" as="geometry" />
+          <mxGeometry height="44" width="300" x="302" y="498" as="geometry" />
         </mxCell>
         <mxCell id="p6-30" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#252525;fontStyle=1;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;text;fillColor=none;strokeColor=none;spacing=0;" value="Professor *" vertex="1">
-          <mxGeometry height="22" width="310" x="632" y="477" as="geometry" />
+          <mxGeometry height="22" width="310" x="640" y="472" as="geometry" />
         </mxCell>
         <mxCell id="p6-31" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=16;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;" value="Professor(a) 01  ▾" vertex="1">
-          <mxGeometry height="44" width="310" x="632" y="507" as="geometry" />
+          <mxGeometry height="44" width="310" x="632" y="498" as="geometry" />
         </mxCell>
         <mxCell id="p6-32" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#252525;fontStyle=1;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;text;fillColor=none;strokeColor=none;spacing=0;" value="Data *" vertex="1">
-          <mxGeometry height="22" width="198" x="308" y="582" as="geometry" />
+          <mxGeometry height="22" width="198" x="302" y="683" as="geometry" />
         </mxCell>
         <mxCell id="p6-33" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=16;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;" value="04/09/2026" vertex="1">
-          <mxGeometry height="44" width="198" x="308" y="612" as="geometry" />
+          <mxGeometry height="44" width="198" x="296" y="705" as="geometry" />
         </mxCell>
         <mxCell id="p6-34" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#252525;fontStyle=1;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;text;fillColor=none;strokeColor=none;spacing=0;" value="Horário *" vertex="1">
-          <mxGeometry height="22" width="198" x="524" y="582" as="geometry" />
+          <mxGeometry height="22" width="198" x="522" y="682" as="geometry" />
         </mxCell>
         <mxCell id="p6-35" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=16;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;" value="09:00  ▾" vertex="1">
-          <mxGeometry height="44" width="198" x="524" y="612" as="geometry" />
+          <mxGeometry height="44" width="198" x="514" y="704" as="geometry" />
         </mxCell>
         <mxCell id="p6-36" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#252525;fontStyle=1;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;text;fillColor=none;strokeColor=none;spacing=0;" value="Duração *" vertex="1">
-          <mxGeometry height="22" width="202" x="740" y="582" as="geometry" />
+          <mxGeometry height="22" width="202" x="740" y="680" as="geometry" />
         </mxCell>
         <mxCell id="p6-37" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=16;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;" value="50 minutos  ▾" vertex="1">
-          <mxGeometry height="44" width="202" x="740" y="612" as="geometry" />
+          <mxGeometry height="44" width="202" x="734" y="704" as="geometry" />
         </mxCell>
         <mxCell id="p6-38" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#252525;fontStyle=1;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;text;fillColor=none;strokeColor=none;spacing=0;" value="Observações para a aula" vertex="1">
-          <mxGeometry height="22" width="634" x="308" y="687" as="geometry" />
+          <mxGeometry height="22" width="634" x="302" y="784" as="geometry" />
         </mxCell>
         <mxCell id="p6-39" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=16;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;" value="Objetivo ou informação para o professor" vertex="1">
-          <mxGeometry height="84" width="634" x="308" y="717" as="geometry" />
+          <mxGeometry height="84" width="634" x="296" y="816" as="geometry" />
         </mxCell>
         <object label="Confirmar agendamento" link="data:page/id,lira-05" id="p6-40">
           <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=16;fontColor=#FFFFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#252525;strokeColor=#252525;" vertex="1">
-            <mxGeometry height="44" width="300" x="308" y="842" as="geometry" />
+            <mxGeometry height="44" width="300" x="296" y="926" as="geometry" />
           </mxCell>
         </object>
         <object label="Cancelar" link="data:page/id,lira-05" id="p6-41">
           <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=16;fontColor=#252525;fontStyle=1;align=center;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#252525;" vertex="1">
-            <mxGeometry height="44" width="310" x="632" y="842" as="geometry" />
+            <mxGeometry height="44" width="310" x="648" y="926" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="p6-42" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=23;fontColor=#252525;fontStyle=1;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;text;fillColor=none;strokeColor=none;spacing=0;" value="Resumo" vertex="1">
@@ -1041,20 +1041,20 @@
         <mxCell id="p6-47" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=17;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;text;fillColor=none;strokeColor=none;spacing=0;" value="Para visitantes: usar nome e contato no lugar de aluno cadastrado. A escola confirma a solicitação de aula experimental." vertex="1">
           <mxGeometry height="113" width="308" x="1014" y="792" as="geometry" />
         </mxCell>
+        <mxCell id="4FLCKu5Lm6KmPolbadOU-2" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=16;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;" value="Selecione um endereço▾" vertex="1">
+          <mxGeometry height="44" width="634" x="302" y="608" as="geometry" />
+        </mxCell>
+        <mxCell id="4FLCKu5Lm6KmPolbadOU-3" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#000000;fontStyle=1;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;text;fillColor=none;strokeColor=none;spacing=0;" value="Endereço Aula" vertex="1">
+          <mxGeometry height="22" width="634" x="308" y="575" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="lira-07" name="07 · Cadastro de alunos">
-    <mxGraphModel dx="2009" dy="1084" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1440" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="2020" dy="1257" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1440" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="p7-2" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=28;fontColor=#252525;fontStyle=1;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;text;fillColor=none;strokeColor=none;spacing=0;" value="07 / Cadastro de alunos" vertex="1">
-          <mxGeometry height="35" width="1340" x="40" y="25" as="geometry" />
-        </mxCell>
-        <mxCell id="p7-3" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=14;fontColor=#626262;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;text;fillColor=none;strokeColor=none;spacing=0;" value="Gestão / consulta e cadastro de alunos · Wireframe de baixa fidelidade · Dados ilustrativos" vertex="1">
-          <mxGeometry height="24" width="1340" x="40" y="66" as="geometry" />
-        </mxCell>
         <mxCell id="p7-4" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=17;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;" value="" vertex="1">
           <mxGeometry height="900" width="1360" x="40" y="110" as="geometry" />
         </mxCell>
@@ -1098,11 +1098,9 @@
             <mxGeometry height="46" width="180" x="54" y="310" as="geometry" />
           </mxCell>
         </object>
-        <object label="Alunos" link="data:page/id,lira-07" id="p7-15">
-          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=16;fontColor=#252525;fontStyle=1;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#DADADA;strokeColor=#BBBBBB;" vertex="1">
-            <mxGeometry height="46" width="180" x="54" y="368" as="geometry" />
-          </mxCell>
-        </object>
+        <mxCell id="p7-15" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=16;fontColor=#252525;fontStyle=1;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#DADADA;strokeColor=#BBBBBB;" value="Professores" vertex="1">
+          <mxGeometry height="46" width="180" x="54" y="368" as="geometry" />
+        </mxCell>
         <object label="Planejar aulas" link="data:page/id,lira-08" id="p7-16">
           <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=16;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#F2F2F2;strokeColor=#F2F2F2;" vertex="1">
             <mxGeometry height="46" width="180" x="54" y="426" as="geometry" />
@@ -1113,11 +1111,9 @@
             <mxGeometry height="46" width="180" x="54" y="484" as="geometry" />
           </mxCell>
         </object>
-        <object label="Portal do aluno" link="data:page/id,lira-10" id="p7-18">
-          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=16;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#F2F2F2;strokeColor=#F2F2F2;" vertex="1">
-            <mxGeometry height="46" width="180" x="54" y="542" as="geometry" />
-          </mxCell>
-        </object>
+        <mxCell id="p7-18" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=16;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#F2F2F2;strokeColor=#F2F2F2;" value="Portal do professor" vertex="1">
+          <mxGeometry height="46" width="180" x="54" y="542" as="geometry" />
+        </mxCell>
         <object label="Acessibilidade" link="data:page/id,lira-11" id="p7-19">
           <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=16;fontColor=#252525;fontStyle=1;align=center;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#252525;" vertex="1">
             <mxGeometry height="44" width="172" x="58" y="882" as="geometry" />
@@ -1128,7 +1124,7 @@
             <mxGeometry height="44" width="172" x="58" y="942" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="p7-21" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=31;fontColor=#252525;fontStyle=1;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;text;fillColor=none;strokeColor=none;spacing=0;" value="Alunos" vertex="1">
+        <mxCell id="p7-21" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=31;fontColor=#252525;fontStyle=1;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;text;fillColor=none;strokeColor=none;spacing=0;" value="Professores" vertex="1">
           <mxGeometry height="43" width="960" x="284" y="222" as="geometry" />
         </mxCell>
         <mxCell id="p7-22" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=17;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;" value="" vertex="1">
@@ -1137,50 +1133,40 @@
         <mxCell id="p7-23" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=17;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;" value="" vertex="1">
           <mxGeometry height="660" width="614" x="732" y="296" as="geometry" />
         </mxCell>
-        <mxCell id="p7-24" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#252525;fontStyle=1;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;text;fillColor=none;strokeColor=none;spacing=0;" value="Buscar aluno" vertex="1">
+        <mxCell id="p7-24" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#252525;fontStyle=1;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;text;fillColor=none;strokeColor=none;spacing=0;" value="Buscar professor" vertex="1">
           <mxGeometry height="22" width="380" x="306" y="316" as="geometry" />
         </mxCell>
         <mxCell id="p7-25" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=16;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;" value="Nome ou e-mail" vertex="1">
           <mxGeometry height="44" width="380" x="306" y="346" as="geometry" />
         </mxCell>
-        <object label="+ Novo aluno" link="data:page/id,lira-07" id="p7-26">
-          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=16;fontColor=#FFFFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#252525;strokeColor=#252525;" vertex="1">
-            <mxGeometry height="44" width="380" x="306" y="416" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Aluno 01&#xa;Piano • Ativo" link="data:page/id,lira-07" id="p7-27">
-          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=17;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#F2F2F2;strokeColor=#BBBBBB;" vertex="1">
-            <mxGeometry height="80" width="380" x="306" y="488" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Aluno 02&#xa;Violão • Ativo" link="data:page/id,lira-07" id="p7-28">
-          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=17;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;" vertex="1">
-            <mxGeometry height="80" width="380" x="306" y="586" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Aluno 03&#xa;Canto • Ativo" link="data:page/id,lira-07" id="p7-29">
-          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=17;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;" vertex="1">
-            <mxGeometry height="80" width="380" x="306" y="684" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Aluno 04&#xa;Piano • Inativo" link="data:page/id,lira-07" id="p7-30">
-          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=17;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;" vertex="1">
-            <mxGeometry height="80" width="380" x="306" y="782" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="p7-31" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=24;fontColor=#252525;fontStyle=1;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;text;fillColor=none;strokeColor=none;spacing=0;" value="Cadastro do aluno" vertex="1">
+        <mxCell id="p7-26" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=16;fontColor=#FFFFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#252525;strokeColor=#252525;" value="+ Novo professor" vertex="1">
+          <mxGeometry height="44" width="380" x="306" y="416" as="geometry" />
+        </mxCell>
+        <mxCell id="p7-27" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=17;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#F2F2F2;strokeColor=#BBBBBB;" value="professor 01&#xa;Piano • Ativo" vertex="1">
+          <mxGeometry height="80" width="380" x="306" y="488" as="geometry" />
+        </mxCell>
+        <mxCell id="p7-28" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=17;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;" value="professor 02&#xa;Violão • Ativo" vertex="1">
+          <mxGeometry height="80" width="380" x="306" y="586" as="geometry" />
+        </mxCell>
+        <mxCell id="p7-29" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=17;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;" value="professor 03&#xa;Canto • Ativo" vertex="1">
+          <mxGeometry height="80" width="380" x="306" y="684" as="geometry" />
+        </mxCell>
+        <mxCell id="p7-30" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=17;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;" value="professor 04&#xa;Piano • Inativo" vertex="1">
+          <mxGeometry height="80" width="380" x="306" y="782" as="geometry" />
+        </mxCell>
+        <mxCell id="p7-31" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=24;fontColor=#252525;fontStyle=1;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;text;fillColor=none;strokeColor=none;spacing=0;" value="Cadastro do professor" vertex="1">
           <mxGeometry height="30" width="566" x="756" y="316" as="geometry" />
         </mxCell>
         <mxCell id="p7-32" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#252525;fontStyle=1;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;text;fillColor=none;strokeColor=none;spacing=0;" value="Nome completo *" vertex="1">
           <mxGeometry height="22" width="566" x="756" y="372" as="geometry" />
         </mxCell>
-        <mxCell id="p7-33" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=16;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;" value="Aluno 01" vertex="1">
+        <mxCell id="p7-33" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=16;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;" value="professor 01" vertex="1">
           <mxGeometry height="44" width="566" x="756" y="402" as="geometry" />
         </mxCell>
         <mxCell id="p7-34" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#252525;fontStyle=1;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;text;fillColor=none;strokeColor=none;spacing=0;" value="E-mail de acesso *" vertex="1">
           <mxGeometry height="22" width="566" x="756" y="468" as="geometry" />
         </mxCell>
-        <mxCell id="p7-35" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=16;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;" value="aluno01@exemplo.com" vertex="1">
+        <mxCell id="p7-35" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=16;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;" value="professor01@exemplo.com" vertex="1">
           <mxGeometry height="44" width="566" x="756" y="498" as="geometry" />
         </mxCell>
         <mxCell id="p7-36" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#252525;fontStyle=1;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;text;fillColor=none;strokeColor=none;spacing=0;" value="Telefone de contato" vertex="1">
@@ -1195,11 +1181,8 @@
         <mxCell id="p7-39" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=16;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;" value="Piano  ▾" vertex="1">
           <mxGeometry height="44" width="272" x="1050" y="594" as="geometry" />
         </mxCell>
-        <mxCell id="p7-40" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#252525;fontStyle=1;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;text;fillColor=none;strokeColor=none;spacing=0;" value="Responsável — quando aplicável" vertex="1">
+        <mxCell id="p7-40" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#252525;fontStyle=1;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;text;fillColor=none;strokeColor=none;spacing=0;" value="Endereços " vertex="1">
           <mxGeometry height="22" width="566" x="756" y="660" as="geometry" />
-        </mxCell>
-        <mxCell id="p7-41" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=16;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;" value="Nome e contato do responsável" vertex="1">
-          <mxGeometry height="44" width="566" x="756" y="690" as="geometry" />
         </mxCell>
         <mxCell id="p7-42" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=15;fontColor=#252525;fontStyle=1;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;text;fillColor=none;strokeColor=none;spacing=0;" value="Preferências de aprendizagem — opcional" vertex="1">
           <mxGeometry height="22" width="566" x="756" y="756" as="geometry" />
@@ -1217,6 +1200,9 @@
             <mxGeometry height="44" width="272" x="1050" y="873" as="geometry" />
           </mxCell>
         </object>
+        <mxCell id="0OekNt18lyOMtRrKZ1t6-1" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=16;fontColor=#252525;fontStyle=0;align=left;verticalAlign=middle;spacing=12;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;" value="Ex.: Area geral de atendimento presencial" vertex="1">
+          <mxGeometry height="58" width="566" x="756" y="695" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
