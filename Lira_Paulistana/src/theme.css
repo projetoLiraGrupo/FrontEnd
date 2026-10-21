@@ -1,0 +1,274 @@
+/*
+  Semantic colour tokens for the four appearance modes. src/preferences.ts resolves the user's choices
+  (or the device settings) onto <html data-theme="light|dark" data-contrast="standard|high">.
+  Components use these variables (site.css) or their Tailwind aliases (index.css); never raw colours.
+
+  "Island" tokens colour text that sits on the brand's dark artwork (hero, login art, sidebar, portal
+  welcome, footer). Those surfaces stay dark in every mode; high contrast only makes their text solid.
+*/
+:root {
+  color-scheme: light;
+  --font-scale: 1;
+
+  --background: #f6f8fc;
+  --surface: #ffffff;
+  --surface-2: #f1f5fa;
+  --surface-3: #e7eef7;
+  --ink: #102140;
+  --ink-2: #263c5c;
+  --muted: #52657d;
+  --subtle: #5b6d84;
+  --border: #e2e9f2;
+  --border-2: #cdd9e7;
+  --border-strong: #7a8ca4;
+
+  --brand: #1955d2;
+  --brand-hover: #103db1;
+  --on-brand: #ffffff;
+  --brand-ink: #154cc0;
+  --brand-soft: #eaf3ff;
+  --brand-soft-2: #e3effd;
+  --brand-line: #cbdcf3;
+  --accent-ink: #13679f;
+  --focus: #0b7fc0;
+  --focus-halo: rgb(25 85 210 / 0.2);
+
+  --positive: #196a4d;
+  --positive-soft: #e0f6ec;
+  --positive-line: #bfe6d4;
+  --warning: #855300;
+  --warning-soft: #fff2d9;
+  --negative: #a3253f;
+  --negative-soft: #ffecee;
+  --star: #f2b447;
+
+  --shadow: 14 50 109;
+  --overlay: rgb(9 21 43 / 0.62);
+  --tint-mint-a: #e3f8f7;
+  --tint-mint-b: #eff9fd;
+  --tint-sky-a: #eff6ff;
+  --tint-sky-b: #e7f6fa;
+
+  --island-ink: #ffffff;
+  --island-muted: #bccbe3;
+  --island-subtle: #93a8ca;
+  --island-accent: #6edaf5;
+  --island-eyebrow: #a7e6fc;
+  --island-line: rgb(255 255 255 / 0.14);
+  --island-hover: rgb(255 255 255 / 0.08);
+  --island-edge: transparent;
+  --island-focus: #7fdcff;
+  --island-button: #ffffff;
+  --island-button-ink: #1045b1;
+  --island-button-hover: #ddf6ff;
+  --island-button-hover-ink: #082968;
+
+  --logo-ink: #0b0c10;
+  --logo-sub: #22262e;
+  --logo-rule: #c8d0dc;
+  --logo-stop-a: #0a2756;
+  --logo-stop-b: #13479a;
+  --logo-stop-c: #1f63ba;
+
+  --chart-1: #1955d2;
+  --chart-2: #1597a6;
+  --chart-3: #d0682c;
+  --chart-4: #7457d0;
+  --chart-5: #2a8c5e;
+  --chart-6: #c2457a;
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  --background: #070d1a;
+  --surface: #0d1629;
+  --surface-2: #131e35;
+  --surface-3: #1a2741;
+  --ink: #e6ecf6;
+  --ink-2: #cdd7e6;
+  --muted: #a3b2c8;
+  --subtle: #8d9db5;
+  --border: #1e2b45;
+  --border-2: #2a3a59;
+  --border-strong: #61759a;
+
+  --brand: #2a64d6;
+  --brand-hover: #1f56c4;
+  --on-brand: #ffffff;
+  --brand-ink: #8ab2ff;
+  --brand-soft: #13264a;
+  --brand-soft-2: #172c52;
+  --brand-line: #2a4677;
+  --accent-ink: #6fc5ee;
+  --focus: #6ccdff;
+  --focus-halo: rgb(108 180 255 / 0.22);
+
+  --positive: #6ad9ac;
+  --positive-soft: #0d2e24;
+  --positive-line: #1d5443;
+  --warning: #f0c060;
+  --warning-soft: #33260c;
+  --negative: #ff9aab;
+  --negative-soft: #3a121b;
+  --star: #f5c04f;
+
+  --shadow: 0 0 0;
+  --overlay: rgb(1 5 14 / 0.72);
+  --tint-mint-a: #0e2a30;
+  --tint-mint-b: #0f1f33;
+  --tint-sky-a: #112241;
+  --tint-sky-b: #0e2433;
+
+  --island-edge: rgb(255 255 255 / 0.09);
+
+  --logo-ink: #ffffff;
+  --logo-sub: #a9bbdc;
+  --logo-rule: rgb(255 255 255 / 0.22);
+  --logo-stop-a: #1c4fae;
+  --logo-stop-b: #2a6bd2;
+  --logo-stop-c: #4a92ec;
+
+  --chart-1: #5b8ff0;
+  --chart-2: #4fcad6;
+  --chart-3: #f29a62;
+  --chart-4: #a28cf0;
+  --chart-5: #5fd39b;
+  --chart-6: #ec7aa5;
+}
+
+/* High contrast, light: near-black on white, ≥7:1 text, strong edges, no tinted gradients. */
+:root[data-contrast='high'] {
+  --background: #ffffff;
+  --surface: #ffffff;
+  --surface-2: #eef1f6;
+  --surface-3: #dce3ec;
+  --ink: #050a14;
+  --ink-2: #050a14;
+  --muted: #1c293b;
+  --subtle: #27364b;
+  --border: #4b596e;
+  --border-2: #27364b;
+  --border-strong: #050a14;
+
+  --brand: #0033a1;
+  --brand-hover: #00226e;
+  --on-brand: #ffffff;
+  --brand-ink: #0033a1;
+  --brand-soft: #e6edff;
+  --brand-soft-2: #d0dcfa;
+  --brand-line: #0033a1;
+  --accent-ink: #003c70;
+  --focus: #000000;
+  --focus-halo: rgb(0 51 161 / 0.25);
+
+  --positive: #00532c;
+  --positive-soft: #e1f5e9;
+  --positive-line: #00532c;
+  --warning: #663e00;
+  --warning-soft: #ffefcf;
+  --negative: #960020;
+  --negative-soft: #ffe8eb;
+  --star: #8a5a00;
+
+  --shadow: 0 0 0;
+  --overlay: rgb(0 0 0 / 0.78);
+  --tint-mint-a: #ffffff;
+  --tint-mint-b: #ffffff;
+  --tint-sky-a: #ffffff;
+  --tint-sky-b: #ffffff;
+
+  --island-ink: #ffffff;
+  --island-muted: #eef3fa;
+  --island-subtle: #d8e2f0;
+  --island-accent: #9fe8ff;
+  --island-eyebrow: #b8eeff;
+  --island-line: rgb(255 255 255 / 0.55);
+  --island-hover: rgb(255 255 255 / 0.16);
+  --island-edge: transparent;
+  --island-focus: #ffd84d;
+  --island-button: #ffffff;
+  --island-button-ink: #00226e;
+  --island-button-hover: #ffd84d;
+  --island-button-hover-ink: #000000;
+
+  --logo-ink: #000000;
+  --logo-sub: #050a14;
+  --logo-rule: #050a14;
+  --logo-stop-a: #0a2756;
+  --logo-stop-b: #13479a;
+  --logo-stop-c: #1f63ba;
+
+  --chart-1: #0033a1;
+  --chart-2: #005f6b;
+  --chart-3: #9a3c06;
+  --chart-4: #4f22a8;
+  --chart-5: #00562a;
+  --chart-6: #8f1550;
+}
+
+/* High contrast, dark: white on black, light brand fills with black text, yellow focus. */
+:root[data-theme='dark'][data-contrast='high'] {
+  --background: #000000;
+  --surface: #05080f;
+  --surface-2: #10151f;
+  --surface-3: #1c2330;
+  --ink: #ffffff;
+  --ink-2: #ffffff;
+  --muted: #e3e9f2;
+  --subtle: #cbd4e1;
+  --border: #8796ad;
+  --border-2: #b3bfcf;
+  --border-strong: #ffffff;
+
+  --brand: #9ccaff;
+  --brand-hover: #c4e0ff;
+  --on-brand: #000000;
+  --brand-ink: #a6d1ff;
+  --brand-soft: #0b1830;
+  --brand-soft-2: #12264a;
+  --brand-line: #a6d1ff;
+  --accent-ink: #8ee3ff;
+  --focus: #ffd84d;
+  --focus-halo: rgb(255 216 77 / 0.3);
+
+  --positive: #7cf5c0;
+  --positive-soft: #002616;
+  --positive-line: #7cf5c0;
+  --warning: #ffd479;
+  --warning-soft: #2b1f00;
+  --negative: #ffa3b4;
+  --negative-soft: #33000c;
+  --star: #ffd84d;
+
+  --shadow: 0 0 0;
+  --overlay: rgb(0 0 0 / 0.82);
+  --tint-mint-a: #05080f;
+  --tint-mint-b: #05080f;
+  --tint-sky-a: #05080f;
+  --tint-sky-b: #05080f;
+
+  --island-edge: #8796ad;
+
+  --logo-ink: #ffffff;
+  --logo-sub: #ffffff;
+  --logo-rule: rgb(255 255 255 / 0.6);
+  --logo-stop-a: #2a62c8;
+  --logo-stop-b: #3d7de0;
+  --logo-stop-c: #64a6f5;
+
+  --chart-1: #9ccaff;
+  --chart-2: #6fe6f2;
+  --chart-3: #ffb27a;
+  --chart-4: #c9b5ff;
+  --chart-5: #7cf5c0;
+  --chart-6: #ff9cc6;
+}
+
+/* Before main.tsx resolves preferences, keep the empty canvas dark on dark devices (no white flash). */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    color-scheme: dark;
+    background: #070d1a;
+  }
+}
